@@ -2,16 +2,13 @@ body {
     background-color: #ffffff;
     font-family: 'Assistant', sans-serif;
     color: #071c4d;
-    font-size: 18px;
 
 }
-
-
 
 // mobile
 @media (max-width: 575.98px) {
     .navbar-custom {
-        z-index: 1;
+        z-index: 99999;
         background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
         opacity: 90%;
 
@@ -56,17 +53,17 @@ body {
         }
 
         h1 {
-
+            margin-left: 20px;
             margin-top: -370px;
             color: #ffffff;
             font-weight: 600;
-            font-size: 25px;
+            font-size: 20px;
             text-shadow: -3px 2px 0px rgba(79, 18, 179, 0.36);
         }
 
         P {
             color: #ffffff;
-
+            margin-left: 20px;
         }
 
         .btn-cte {
@@ -77,6 +74,7 @@ body {
             width: 140px;
             height: 45px;
             margin-top: 10px;
+            margin-left: 20px;
 
             &:hover {
                 background-color: #13857b;
@@ -203,6 +201,64 @@ body {
             }
         }
 
+        .section-price-heading {
+
+            h2 {
+                line-height: 20px;
+                margin-bottom: 50px;
+                color: #ffffff;
+            }
+        }
+
+        .section-card-price-content {
+            position: relative;
+            z-index: 9999;
+            margin: 50px;
+
+            .card-price {
+                margin-bottom: 20px;
+                border-radius: 15px;
+                height: 400px;
+                overflow: hidden;
+
+                background-color: rgba(255, 255, 255, 0.664);
+                -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+                -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+                box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+            }
+
+            .text-teal {
+                color: #420394bb;
+                line-height: 35px;
+            }
+
+            .text-teal-costum {
+                color: #0cb694;
+                line-height: 35px;
+            }
+
+            .btn-call {
+                background-color: #0cb694;
+                color: #ffffff;
+                font-weight: 600;
+                border-radius: 20px;
+                width: 90px;
+                height: 35px;
+
+
+                &:hover {
+                    background-color: #293ad3;
+                    color: #ffffff;
+                }
+            }
+
+            p {
+                font-size: 17px;
+                color: #074c9b;
+                font-weight: 600;
+            }
+        }
+
 
         .custom-shape-divider-bottom-1601279884 {
             position: relative;
@@ -270,7 +326,7 @@ body {
 
         .custom-shape-divider-bottom-1601287837 {
             position: relative;
-            bottom: 0;
+            bottom: 290px;
             left: 0;
             width: 100%;
             overflow: hidden;
@@ -291,9 +347,11 @@ body {
 
     // contact
     .contact {
+        margin-top: -290px;
         background-color: #1c2c44;
 
         h3 {
+            padding-top: 200px;
             font-weight: 600;
             color: #ffffff;
         }
@@ -353,13 +411,14 @@ body {
 // mobile-miring
 @media (min-width: 576px) {
     .navbar-custom {
+
         border-radius: 0px 0px 10px 10px;
         -moz-border-radius: 0px 0px 10px 10px;
         -webkit-border-radius: 0px 0px 10px 10px;
         border: 0px solid #000000;
-        z-index: 1;
+        z-index: 99999;
         background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
-
+        opacity: 90%;
 
         .active {
             font-weight: 600;
@@ -398,7 +457,6 @@ body {
             height: 600px;
             background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
             margin-top: -120px;
-
         }
 
         h1 {
@@ -408,8 +466,6 @@ body {
             font-size: 30px;
             text-shadow: -3px 2px 0px rgba(79, 18, 179, 0.36);
         }
-
-
 
         p {
             color: #ffffff;
@@ -423,7 +479,6 @@ body {
             width: 140px;
             height: 45px;
 
-
             &:hover {
                 background-color: #1c9980;
                 color: #ffffff;
@@ -434,7 +489,6 @@ body {
             color: #ffffff;
             margin-top: -575px;
             width: 250px;
-
 
         }
 
@@ -520,7 +574,7 @@ body {
     }
 
     .portfolio {
-        background-color: #ecf3fb;
+        background-color: #264794;
         margin-top: 100px;
 
         h1 {
@@ -548,7 +602,6 @@ body {
             width: 110px;
             height: 45px;
 
-
             &:hover {
                 background-color: #293ad3;
                 color: #ffffff;
@@ -574,12 +627,12 @@ body {
         }
 
         .custom-shape-divider-bottom-1601279884 .shape-fill {
-            fill: #ECF3FB;
+            fill: #264794
         }
 
         .custom-shape-divider-bottom-1601287837 {
             position: relative;
-            bottom: 0;
+            bottom: 300px;
             left: 0;
             width: 100%;
             overflow: hidden;
@@ -594,7 +647,86 @@ body {
         }
 
         .custom-shape-divider-bottom-1601287837 .shape-fill {
-            fill: #1C2C44;
+            fill: #1c2c44;
+        }
+
+        .quote {
+            color: #ffffff;
+            text-align: center;
+            font-style: italic;
+            line-height: 30px;
+            margin: 15px;
+        }
+
+        .my-skils {
+
+            h3 {
+                font-size: 30px;
+                color: #ffffff;
+            }
+
+            p {
+                color: #ffffff;
+
+            }
+        }
+
+        .section-price-heading {
+
+            h2,
+            p {
+                color: #ffffff;
+            }
+        }
+
+        .section-card-price-content {
+
+            position: relative;
+            z-index: 9999;
+            margin: 50px;
+
+            .card-price {
+                border-radius: 15px;
+                height: 420px;
+
+                background-color: rgba(255, 255, 255, 0.664);
+                -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+                -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+                box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+            }
+
+            .text-teal {
+                color: #420394;
+            }
+
+            .text-teal-costum {
+                color: #0cb694;
+                line-height: 35px;
+            }
+
+            .btn-call {
+                background-color: #0cb694;
+                color: #ffffff;
+                font-weight: 600;
+                border-radius: 20px;
+                width: 90px;
+                height: 35px;
+
+
+                &:hover {
+                    background-color: #293ad3;
+                    color: #ffffff;
+                }
+            }
+
+            h3,
+            p {
+                line-height: 20px;
+                font-size: 18px;
+                margin-top: -20px;
+                color: #074c9b;
+                font-weight: 600;
+            }
         }
 
     }
@@ -602,10 +734,12 @@ body {
     .contact {
         background-color: #1c2c44;
         margin-bottom: 100px;
+        margin-top: -300px;
 
         .contact-header {
 
             h3 {
+                padding-top: 200px;
                 font-weight: 600;
                 color: #ffffff;
             }
@@ -620,7 +754,6 @@ body {
 
         p {
             color: #ffffff;
-            margin-top: 90px;
 
         }
 
@@ -649,6 +782,33 @@ body {
         }
     }
 
+    .section-footer {
+        margin-top: -100px !important;
+        background-color: #1c2c44;
+        color: #ffffff;
+
+        .note {
+            margin-top: 20px !important;
+        }
+
+        img {
+            width: 60px;
+            margin: 5px;
+
+            &:hover {
+                width: 75px;
+                margin: -2.5px;
+                box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+            }
+        }
+
+        .footer-down {
+            p {
+                margin-top: -20px;
+                margin-bottom: 40px;
+            }
+        }
+    }
 
 
 }
@@ -664,7 +824,7 @@ body {
         -moz-border-radius: 0px 0px 10px 10px;
         -webkit-border-radius: 0px 0px 10px 10px;
         border: 0px solid #000000;
-        z-index: 1;
+        z-index: 99999;
         width: 900px;
         margin: auto;
         -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
@@ -832,6 +992,7 @@ body {
     .portfolio {
         background-color: #264794;
         height: auto;
+        display: block;
 
         .custom-shape-divider-bottom-1601279884 {
             position: relative;
@@ -885,6 +1046,7 @@ body {
         }
 
         .my-skils {
+
             h3 {
                 font-size: 30px;
                 color: #ffffff;
@@ -897,12 +1059,14 @@ body {
         }
 
         .custom-shape-divider-bottom-1601287837 {
+
             position: relative;
-            bottom: 0;
+            top: -290px;
             left: 0;
             width: 100%;
             overflow: hidden;
             line-height: 0;
+
         }
 
         .custom-shape-divider-bottom-1601287837 svg {
@@ -916,15 +1080,80 @@ body {
             fill: #1C2C44;
         }
 
+        .progres {
+            margin-bottom: 100px !important;
+        }
     }
 
+    .section-price-heading {
+
+
+        h2 {
+            margin-bottom: -40px;
+            color: #ffffff;
+        }
+    }
+
+    .section-card-price-content {
+
+        padding-top: 40px;
+        position: relative;
+        z-index: 9999;
+        margin: 50px;
+
+        .card-price {
+            border-radius: 15px;
+            height: 400px;
+
+            background-color: rgba(255, 255, 255, 0.664);
+            -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+            -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+            box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+        }
+
+        .text-teal {
+            color: #420394;
+        }
+
+        .text-teal-costum {
+            color: #0cb694;
+            line-height: 35px;
+        }
+
+        .btn-call {
+            background-color: #0cb694;
+            color: #ffffff;
+            font-weight: 600;
+            border-radius: 20px;
+            width: 90px;
+            height: 35px;
+
+
+            &:hover {
+                background-color: #293ad3;
+                color: #ffffff;
+            }
+        }
+
+        h3,
+        p {
+            padding-top: 30px;
+            color: #074c9b;
+            font-weight: 600;
+        }
+    }
+
+
     .contact {
+        margin-top: -300px;
         background-color: #1c2c44;
 
 
         .contact-header {
+            padding-top: 80px;
 
             h3 {
+                padding-top: 30px;
                 font-weight: 600;
                 color: #ffffff;
             }

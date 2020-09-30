@@ -2,12 +2,11 @@ body {
   background-color: #ffffff;
   font-family: 'Assistant', sans-serif;
   color: #071c4d;
-  font-size: 18px;
 }
 
 @media (max-width: 575.98px) {
   .navbar-custom {
-    z-index: 1;
+    z-index: 99999;
     background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
     opacity: 90%;
   }
@@ -41,14 +40,16 @@ body {
     margin-top: -120px;
   }
   .header h1 {
+    margin-left: 20px;
     margin-top: -370px;
     color: #ffffff;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: -3px 2px 0px rgba(79, 18, 179, 0.36);
   }
   .header P {
     color: #ffffff;
+    margin-left: 20px;
   }
   .header .btn-cte {
     background-color: #0cb694;
@@ -58,6 +59,7 @@ body {
     width: 140px;
     height: 45px;
     margin-top: 10px;
+    margin-left: 20px;
   }
   .header .btn-cte:hover {
     background-color: #13857b;
@@ -155,6 +157,50 @@ body {
   .portfolio .progres .progress {
     margin: 25px;
   }
+  .portfolio .section-price-heading h2 {
+    line-height: 20px;
+    margin-bottom: 50px;
+    color: #ffffff;
+  }
+  .portfolio .section-card-price-content {
+    position: relative;
+    z-index: 9999;
+    margin: 50px;
+  }
+  .portfolio .section-card-price-content .card-price {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    height: 400px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.664);
+    -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+  }
+  .portfolio .section-card-price-content .text-teal {
+    color: #420394bb;
+    line-height: 35px;
+  }
+  .portfolio .section-card-price-content .text-teal-costum {
+    color: #0cb694;
+    line-height: 35px;
+  }
+  .portfolio .section-card-price-content .btn-call {
+    background-color: #0cb694;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 90px;
+    height: 35px;
+  }
+  .portfolio .section-card-price-content .btn-call:hover {
+    background-color: #293ad3;
+    color: #ffffff;
+  }
+  .portfolio .section-card-price-content p {
+    font-size: 17px;
+    color: #074c9b;
+    font-weight: 600;
+  }
   .portfolio .custom-shape-divider-bottom-1601279884 {
     position: relative;
     top: -145px;
@@ -214,7 +260,7 @@ body {
   }
   .portfolio .custom-shape-divider-bottom-1601287837 {
     position: relative;
-    bottom: 0;
+    bottom: 290px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -230,9 +276,11 @@ body {
     fill: #1C2C44;
   }
   .contact {
+    margin-top: -290px;
     background-color: #1c2c44;
   }
   .contact h3 {
+    padding-top: 200px;
     font-weight: 600;
     color: #ffffff;
   }
@@ -280,8 +328,9 @@ body {
     -moz-border-radius: 0px 0px 10px 10px;
     -webkit-border-radius: 0px 0px 10px 10px;
     border: 0px solid #000000;
-    z-index: 1;
+    z-index: 99999;
     background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+    opacity: 90%;
   }
   .navbar-custom .active {
     font-weight: 600;
@@ -405,7 +454,7 @@ body {
     font-weight: 600;
   }
   .portfolio {
-    background-color: #ecf3fb;
+    background-color: #264794;
     margin-top: 100px;
   }
   .portfolio h1 {
@@ -452,11 +501,11 @@ body {
             transform: rotateY(180deg);
   }
   .portfolio .custom-shape-divider-bottom-1601279884 .shape-fill {
-    fill: #ECF3FB;
+    fill: #264794;
   }
   .portfolio .custom-shape-divider-bottom-1601287837 {
     position: relative;
-    bottom: 0;
+    bottom: 300px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -469,13 +518,72 @@ body {
     height: 155px;
   }
   .portfolio .custom-shape-divider-bottom-1601287837 .shape-fill {
-    fill: #1C2C44;
+    fill: #1c2c44;
+  }
+  .portfolio .quote {
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    line-height: 30px;
+    margin: 15px;
+  }
+  .portfolio .my-skils h3 {
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .portfolio .my-skils p {
+    color: #ffffff;
+  }
+  .portfolio .section-price-heading h2,
+  .portfolio .section-price-heading p {
+    color: #ffffff;
+  }
+  .portfolio .section-card-price-content {
+    position: relative;
+    z-index: 9999;
+    margin: 50px;
+  }
+  .portfolio .section-card-price-content .card-price {
+    border-radius: 15px;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.664);
+    -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+  }
+  .portfolio .section-card-price-content .text-teal {
+    color: #420394;
+  }
+  .portfolio .section-card-price-content .text-teal-costum {
+    color: #0cb694;
+    line-height: 35px;
+  }
+  .portfolio .section-card-price-content .btn-call {
+    background-color: #0cb694;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 90px;
+    height: 35px;
+  }
+  .portfolio .section-card-price-content .btn-call:hover {
+    background-color: #293ad3;
+    color: #ffffff;
+  }
+  .portfolio .section-card-price-content h3,
+  .portfolio .section-card-price-content p {
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: -20px;
+    color: #074c9b;
+    font-weight: 600;
   }
   .contact {
     background-color: #1c2c44;
     margin-bottom: 100px;
+    margin-top: -300px;
   }
   .contact .contact-header h3 {
+    padding-top: 200px;
     font-weight: 600;
     color: #ffffff;
   }
@@ -485,7 +593,6 @@ body {
   }
   .contact p {
     color: #ffffff;
-    margin-top: 90px;
   }
   .contact img {
     margin-left: 50px;
@@ -506,6 +613,28 @@ body {
     background-color: #293ad3;
     color: #ffffff;
   }
+  .section-footer {
+    margin-top: -100px !important;
+    background-color: #1c2c44;
+    color: #ffffff;
+  }
+  .section-footer .note {
+    margin-top: 20px !important;
+  }
+  .section-footer img {
+    width: 60px;
+    margin: 5px;
+  }
+  .section-footer img:hover {
+    width: 75px;
+    margin: -2.5px;
+    -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+            box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+  }
+  .section-footer .footer-down p {
+    margin-top: -20px;
+    margin-bottom: 40px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -517,7 +646,7 @@ body {
     -moz-border-radius: 0px 0px 10px 10px;
     -webkit-border-radius: 0px 0px 10px 10px;
     border: 0px solid #000000;
-    z-index: 1;
+    z-index: 99999;
     width: 900px;
     margin: auto;
     -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
@@ -651,6 +780,7 @@ body {
   .portfolio {
     background-color: #264794;
     height: auto;
+    display: block;
   }
   .portfolio .custom-shape-divider-bottom-1601279884 {
     position: relative;
@@ -703,7 +833,7 @@ body {
   }
   .portfolio .custom-shape-divider-bottom-1601287837 {
     position: relative;
-    bottom: 0;
+    top: -290px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -718,10 +848,60 @@ body {
   .portfolio .custom-shape-divider-bottom-1601287837 .shape-fill {
     fill: #1C2C44;
   }
+  .portfolio .progres {
+    margin-bottom: 100px !important;
+  }
+  .section-price-heading h2 {
+    margin-bottom: -40px;
+    color: #ffffff;
+  }
+  .section-card-price-content {
+    padding-top: 40px;
+    position: relative;
+    z-index: 9999;
+    margin: 50px;
+  }
+  .section-card-price-content .card-price {
+    border-radius: 15px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.664);
+    -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+  }
+  .section-card-price-content .text-teal {
+    color: #420394;
+  }
+  .section-card-price-content .text-teal-costum {
+    color: #0cb694;
+    line-height: 35px;
+  }
+  .section-card-price-content .btn-call {
+    background-color: #0cb694;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 90px;
+    height: 35px;
+  }
+  .section-card-price-content .btn-call:hover {
+    background-color: #293ad3;
+    color: #ffffff;
+  }
+  .section-card-price-content h3,
+  .section-card-price-content p {
+    padding-top: 30px;
+    color: #074c9b;
+    font-weight: 600;
+  }
   .contact {
+    margin-top: -300px;
     background-color: #1c2c44;
   }
+  .contact .contact-header {
+    padding-top: 80px;
+  }
   .contact .contact-header h3 {
+    padding-top: 30px;
     font-weight: 600;
     color: #ffffff;
   }
