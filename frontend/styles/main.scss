@@ -3,6 +3,30 @@ body {
     font-family: 'Assistant', sans-serif;
     color: #071c4d;
 
+    a.scrolltotop {
+        background: #1c9980 none repeat scroll 0 0;
+        bottom: 40px;
+        color: #ffffff;
+        display: none;
+        font-size: 20px;
+        height: 40px;
+        padding-top: 5px;
+        position: fixed;
+        right: 40px;
+        text-align: center;
+        width: 40px;
+        z-index: 99999;
+        border-radius: 50%;
+        -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+        -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
+        box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.726);
+
+        &:hover {
+            background-color: #D50000;
+            transition: .8s;
+        }
+    }
+
 }
 
 // mobile
@@ -815,6 +839,8 @@ body {
 
 // desktop
 @media (min-width: 992px) {
+
+
     .navbar-brand {
         width: 190px;
     }
@@ -1097,14 +1123,13 @@ body {
     .section-card-price-content {
 
         padding-top: 40px;
-        position: relative;
+        position: fixed;
         z-index: 9999;
         margin: 50px;
 
         .card-price {
             border-radius: 15px;
             height: 400px;
-
             background-color: rgba(255, 255, 255, 0.664);
             -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
             -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
