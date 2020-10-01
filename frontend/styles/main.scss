@@ -79,6 +79,25 @@ body {
         }
     }
 
+    // animations
+    .header {
+        .text-header {
+            opacity: 0;
+            transform: translate(0, 200px);
+            transition: 0.8s;
+        }
+
+        .btn-cte {
+            opacity: 0;
+            transition: 0.8s;
+        }
+
+        .come-up {
+            opacity: 1;
+            transition: 1s;
+            transform: translate(0, 0);
+        }
+    }
 
 }
 
