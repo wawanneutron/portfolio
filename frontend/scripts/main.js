@@ -39,16 +39,39 @@ $('a.scrolltotop').on('click', function (event) {
 $(document).ready(function () {
     setTimeout(function () {
         $('.preloader').fadeOut();
-    }, 2000)
+    })
 
 });
 
-// animation when in open the web
-$(window).on('load', function () {
-    $('.text-header').addClass('come-up');
-    $('.btn-cte').addClass('come-up');
+// animation when in scroll the web
+$(window).scroll(function () {
+    var windowScroll = $(this).scrollTop();
 
-    setTimeout(function () {
-        $('.btn-cte').addClass('come-up');
-    }, 2400);
+    if (windowScroll > $('.about').offset().top - 400) {
+        setTimeout(function () {
+
+            $('.about .about-text').addClass('come-up');
+
+        }, 100)
+    }
+
+    if (windowScroll > $('.content-about').offset().top - 400) {
+        $('.content-about .about-content').each(function (i) {
+            setTimeout(function () {
+                $('.content-about .about-content').eq(i).addClass('come-up');
+            }, 300 * (i + 1));
+        });
+
+    }
+
+    if (windowScroll > $('.social-icon').offset().top - 700) {
+
+        $('.social-icon .social').each(function (i) {
+            setTimeout(function () {
+                $('.social-icon .social').eq(i).addClass('muncul');
+
+            }, 250 * (i + 1));
+        });
+
+    }
 });
