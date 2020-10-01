@@ -2,7 +2,7 @@
 // when in the scroll, appears icon scroll to top
 $(window).scroll(function () {
     var totalHeight = $(window).scrollTop();
-    if (totalHeight > 350) {
+    if (totalHeight > 400) {
         $(".scrolltotop").fadeIn();
     } else {
         $(".scrolltotop").fadeOut();
@@ -13,7 +13,7 @@ $(window).scroll(function () {
 $('a.scrolltotop').on('click', function (event) {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#home").offset().top
-    }, 300);
+    }, 350);
 });
 
 // make navbar collapse when in scroll to down lost
@@ -34,3 +34,8 @@ $('a.scrolltotop').on('click', function (event) {
     });
 
 })();
+
+// preloader
+$(document).ready(function () {
+    $('.preloader').fadeOut();
+});
