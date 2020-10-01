@@ -72,7 +72,12 @@ body {
         background-color: #ffffff;
 
         .loading {
-            font-weight: 600;
+            p {
+                font-style: italic;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
             position: absolute;
             left: 50%;
             top: 50%;

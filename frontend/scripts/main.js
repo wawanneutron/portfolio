@@ -1,4 +1,19 @@
 // make projact portfolio Neutron Blog
+
+// event when link in to click
+$('.page-scroll').on('click', function (e) {
+    // get a href
+    var tujuan = $(this).attr('href');
+    // add elemen
+    var elemenTujuan = $(tujuan);
+
+    $('html, body').animate({
+        scrollTop: elemenTujuan.offset().top - 50
+    }, 1900, 'easeInOutExpo');
+
+    e.preventDefault();
+
+});
 // when in the scroll, appears icon scroll to top
 $(window).scroll(function () {
     var totalHeight = $(window).scrollTop();
@@ -13,7 +28,7 @@ $(window).scroll(function () {
 $('a.scrolltotop').on('click', function (event) {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#home").offset().top
-    }, 350);
+    }, 2000, 'easeInOutExpo');
 });
 
 // make navbar collapse when in scroll to down lost
