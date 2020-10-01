@@ -45,10 +45,8 @@ $(document).ready(function () {
 
 // animation when in open the web
 $(window).on('load', function () {
-    setTimeout(function () {
-        $('.text-header').addClass('come-up');
-        $('.btn-cte').addClass('come-up');
-    }, 2100);
+    $('.text-header').addClass('come-up');
+    $('.btn-cte').addClass('come-up');
 
     setTimeout(function () {
         $('.btn-cte').addClass('come-up');
