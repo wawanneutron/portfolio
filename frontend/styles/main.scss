@@ -40,6 +40,11 @@ body {
         -ms-transition: all 0.5s ease;
 
         -moz-transition: all 0.5s ease;
+
+        ul li a {
+            display: inline-block;
+            text-transform: uppercase;
+        }
     }
 
     .hidden {
@@ -56,11 +61,6 @@ body {
 
     }
 
-    .navbar-custom ul li a {
-        display: inline-block;
-        text-transform: uppercase;
-    }
-
     // preloader
     .preloader {
         position: fixed;
@@ -72,6 +72,7 @@ body {
         background-color: #ffffff;
 
         .loading {
+            font-weight: 600;
             position: absolute;
             left: 50%;
             top: 50%;
