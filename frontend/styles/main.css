@@ -28,6 +28,28 @@ body a.scrolltotop:hover {
   transition: .8s;
 }
 
+body .navbar-custom {
+  position: fixed;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+
+body .hidden {
+  transform: translate3d(0, -100%, 0);
+  -webkit-transform: translate3d(0, -100%, 0);
+  -o-transform: translate3d(0, -100%, 0);
+  -ms-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+}
+
+body .navbar-custom ul li a {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
 @media (max-width: 575.98px) {
   .navbar-custom {
     z-index: 99999;
