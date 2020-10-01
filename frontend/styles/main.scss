@@ -115,13 +115,12 @@ body {
     .portfolio {
         .img-quote {
             opacity: 0;
-            transform: translate(-150px, -150px);
+            transform: translate(-50px, -50px);
             transition: 0.8s;
         }
 
         .quote {
             opacity: 0;
-            transform: translate(130px, 130px);
             transition: 0.8s;
         }
 
