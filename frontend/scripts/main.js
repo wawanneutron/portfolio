@@ -39,6 +39,6 @@ $('a.scrolltotop').on('click', function (event) {
 $(document).ready(function () {
     setTimeout(function () {
         $('.preloader').fadeOut();
-    }, 1000)
+    }, 2000)
 
 });
