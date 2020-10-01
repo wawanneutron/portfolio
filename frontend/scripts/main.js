@@ -37,9 +37,7 @@ $('a.scrolltotop').on('click', function (event) {
 
 // preloader
 $(document).ready(function () {
-    setTimeout(function () {
-        $('.preloader').fadeOut();
-    })
+    $('.preloader').fadeOut();
 
 });
 
@@ -53,6 +51,30 @@ $(window).scroll(function () {
             $('.about .about-text').addClass('come-up');
 
         }, 100)
+    }
+
+    if (windowScroll > $('.portfolio').offset().top - 600) {
+        setTimeout(function () {
+
+            $('.portfolio .img-quote').addClass('come-up');
+
+        }, 600)
+    }
+
+    if (windowScroll > $('.portfolio').offset().top - 600) {
+        setTimeout(function () {
+
+            $('.portfolio .quote').addClass('come-up');
+
+        }, 600)
+    }
+
+    if (windowScroll > $('.portfolio').offset().top - 100) {
+        setTimeout(function () {
+
+            $('.portfolio .skil-animate').addClass('come-up');
+
+        }, 800)
     }
 
     if (windowScroll > $('.content-about').offset().top - 400) {

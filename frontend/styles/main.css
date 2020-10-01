@@ -101,6 +101,38 @@ body .content-about .come-up {
           transform: translate(0, 0);
 }
 
+body .portfolio .img-quote {
+  opacity: 0;
+  -webkit-transform: translate(-150px, -150px);
+          transform: translate(-150px, -150px);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+body .portfolio .quote {
+  opacity: 0;
+  -webkit-transform: translate(130px, 130px);
+          transform: translate(130px, 130px);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+body .portfolio .skil-animate {
+  opacity: 0;
+  -webkit-transform: translate(0, 200px);
+          transform: translate(0, 200px);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+body .portfolio .come-up {
+  opacity: 1;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
 body .social-icon .social {
   opacity: 0;
   -webkit-transform: translate(0, -50px);
