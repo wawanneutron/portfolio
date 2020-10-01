@@ -37,5 +37,8 @@ $('a.scrolltotop').on('click', function (event) {
 
 // preloader
 $(document).ready(function () {
-    $('.preloader').fadeOut();
+    setTimeout(function () {
+        $('.preloader').fadeOut();
+    }, 1000)
+
 });
