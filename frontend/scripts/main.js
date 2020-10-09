@@ -101,7 +101,7 @@ $(window).scroll(function () {
 
     }
 
-    if (windowScroll > $('.social-icon').offset().top - 700) {
+    if (windowScroll > $('.social-icon').offset().top - 600) {
 
         $('.social-icon .social').each(function (i) {
             setTimeout(function () {
@@ -111,4 +111,7 @@ $(window).scroll(function () {
         });
 
     }
+
+
+   
 });
