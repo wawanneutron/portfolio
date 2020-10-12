@@ -31,6 +31,25 @@ $('a.scrolltotop').on('click', function (event) {
     }, 2000, 'easeInOutExpo');
 });
 
+// when in the scroll, appears icon scroll to top
+$(window).scroll(function () {
+    var totalHeight = $(window).scrollTop();
+    if (totalHeight > 550) {
+        $(".share").fadeIn();
+    }
+    else {
+        $(".share").fadeOut();
+    }
+
+
+
+
+});
+
+
+
+
+
 // make navbar collapse when in scroll to down lost
 (function () {
     var documentElem = $(document),
@@ -112,6 +131,5 @@ $(window).scroll(function () {
 
     }
 
-
-   
 });
+
