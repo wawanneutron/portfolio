@@ -133,3 +133,13 @@ $(window).scroll(function () {
 
 });
 
+// typing text animation
+$(document).ready(function () {
+    var typed = new Typed(".typing", {
+        strings: ["Web Programer", "Developer", "Bloger", "Designer Web", "Full Stack Developer", "College"],
+        typedSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+});
+
