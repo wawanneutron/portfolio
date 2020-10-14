@@ -209,6 +209,43 @@ body .social-icon .muncul {
     background-color: #293ad3;
     color: #ffffff;
   }
+  .header .text-header-blog {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 50px;
+    margin-right: 20px;
+    font-size: 35px;
+  }
+  .header .text-header-blog span {
+    color: #ff7300;
+  }
+  .header img.img-header-blog {
+    margin-top: 170px;
+    position: absolute;
+  }
+  .header h1.artikel-blog {
+    color: #fff;
+    margin-top: -370px;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .header h1.artikel-blog span {
+    font-size: 20px;
+    font-style: italic;
+  }
+  .header span.penulis-header {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px !important;
+    display: block;
+  }
+  .header span.penulis-header a {
+    color: #fff;
+    font-weight: 600;
+  }
+  .header span.penulis-header .kategory {
+    font-weight: 600;
+  }
   .header .artikel-blog {
     padding-top: 10px;
     font-size: 30px;
@@ -232,27 +269,30 @@ body .social-icon .muncul {
     margin-top: -120px;
   }
   .header p {
+    font-family: 'Ubuntu', sans-serif;
     position: absolute;
-    margin-top: -380px;
+    margin-top: -350px;
     font-size: 30px;
     color: #fff;
     font-weight: 600;
   }
   .header h2.text-header {
+    font-family: 'Ubuntu', sans-serif;
     margin-left: 20px;
-    margin-top: -320px;
+    margin-top: -280px;
     color: #ffffff;
     font-weight: 600;
     font-size: 40px;
   }
   .header h2 {
+    font-family: 'Ubuntu', sans-serif;
     margin-left: 20px;
     color: #ffffff;
     font-weight: 600;
     font-size: 27px;
   }
   .header h2 span {
-    color: #800c80;
+    color: #ff6600;
     font-weight: 700;
   }
   .header .text-header-blog {
@@ -263,6 +303,7 @@ body .social-icon .muncul {
     margin-left: 20px;
   }
   .header .btn-cte {
+    display: none;
     background-color: #0cb694;
     color: #ffffff;
     font-weight: 300;
@@ -295,7 +336,7 @@ body .social-icon .muncul {
   }
   .header .custom-shape-divider-bottom-1601050511 {
     position: relative;
-    margin-top: -110px;
+    margin-top: -90px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -331,13 +372,20 @@ body .social-icon .muncul {
   .header .costum-wave-artikel-blog .shape-fill {
     fill: #420394;
   }
+  .artikel .artikel-about {
+    margin-top: -10px;
+    margin-bottom: 130px;
+  }
+  .artikel .img-judul img {
+    border-radius: 12px;
+  }
   .artikel .penulis {
     font-style: italic;
   }
   .artikel .isi-kontent {
     margin: 10px;
-    font-size: 19px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 37px;
     margin-bottom: 200px;
   }
   .artikel .card-penulis {
@@ -728,17 +776,6 @@ body .social-icon .muncul {
     border: 0px solid #000000;
     z-index: 99999;
     background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
-    opacity: 90%;
-  }
-  .navbar-custom .active {
-    font-weight: 600;
-    color: #071c4d !important;
-    opacity: 1;
-  }
-  .navbar-custom .nav-link {
-    font-weight: 500;
-    color: #ffffff !important;
-    opacity: 50%;
   }
   .navbar-custom img {
     margin-top: 0px;
@@ -754,6 +791,37 @@ body .social-icon .muncul {
   .navbar-custom .btn-login-mobile:hover {
     background-color: #293ad3;
     color: #ffffff;
+  }
+  .header h1.artikel-blog {
+    color: #fff;
+    margin-top: -470px;
+    font-size: 60px;
+  }
+  .header h1.artikel-blog span {
+    font-size: 30px;
+    font-style: italic;
+  }
+  .header span.penulis-header {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px !important;
+    display: block;
+  }
+  .header span.penulis-header a {
+    color: #fff;
+    font-weight: 600;
+  }
+  .header span.penulis-header .kategory {
+    font-weight: 600;
+  }
+  .header .text-header-blog {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -400px;
+    margin-right: 60px;
+  }
+  .header .text-header-blog span {
+    color: #ff7300;
   }
   .header .img-header-blog {
     width: 330px;
@@ -1225,19 +1293,17 @@ body .social-icon .muncul {
     box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.51);
     background-image: unset;
   }
-  .navbar-custom .active {
+  .navbar-custom .navbar-collapse a.active {
     font-weight: 700;
-    color: #071c4d !important;
-    opacity: 1;
+    color: #e90088d3 !important;
   }
-  .navbar-custom .nav-link {
+  .navbar-custom .navbar-collapse .nav-link {
     font-weight: 600;
-    color: #071c4d !important;
+    color: #5012b3cc !important;
   }
-  .navbar-custom .nav-link:hover {
-    color: #4f12b3 !important;
+  .navbar-custom .navbar-collapse .nav-link:hover {
+    color: #e90088d3 !important;
     font-weight: 600;
-    opacity: 1;
   }
   .navbar-custom .btn-login {
     background-color: #4f12b3;
@@ -1271,13 +1337,14 @@ body .social-icon .muncul {
     color: #fff;
   }
   .header h2 {
-    font-size: 38px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
     color: #fff;
     font-weight: 600;
   }
   .header h2 span {
-    font-size: 38px;
-    color: #800c80;
+    font-size: 40px;
+    color: #ff7300;
     font-weight: 700;
   }
   .header .btn-cte {
@@ -1297,7 +1364,6 @@ body .social-icon .muncul {
     color: #ffffff;
     margin-top: -750px;
     width: 600px;
-    margin-left: 15px;
   }
   .header .home-custom-shape-divider-bottom-1601050511 {
     position: relative;
@@ -1576,25 +1642,39 @@ body .social-icon .muncul {
     margin-top: -20px;
     margin-bottom: 40px;
   }
-  .header .artikel-blog {
+  .header h1.artikel-blog {
+    color: #fff;
+    margin-top: -470px;
     font-size: 60px;
   }
-  .header .artikel-blog span {
+  .header h1.artikel-blog span {
     font-size: 30px;
     font-style: italic;
   }
-  .header a {
-    color: #ffffff;
+  .header span.penulis-header {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px !important;
+    display: block;
+  }
+  .header span.penulis-header a {
+    color: #fff;
     font-weight: 600;
   }
-  .header .kategory {
+  .header span.penulis-header .kategory {
     font-weight: 600;
   }
   .header .img-header-blog {
     width: 400px;
   }
   .header .text-header-blog {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -450px;
     margin-right: 60px;
+  }
+  .header .text-header-blog span {
+    color: #ff7300;
   }
   .artikel .artikel-about {
     margin-bottom: 50px;
