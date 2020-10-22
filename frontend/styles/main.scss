@@ -576,10 +576,11 @@ body {
         max-height: 560px;
         text-decoration: none;
         border-radius: 12px;
-        background-color: #000000be;
+        background-color: #000000be !important;
         
         &:hover{
-            background-color: #000000d2;
+            text-decoration: none !important;
+            background-color: #000000d2 !important;
         }
         
         p,h3,{
