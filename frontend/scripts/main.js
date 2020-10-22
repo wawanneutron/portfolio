@@ -65,6 +65,7 @@ $(window).scroll(function () {
         // scrollTop
         else nav.removeClass('hidden');
         lastScrollTop = currentScrollTop;
+
     });
 
 })();
